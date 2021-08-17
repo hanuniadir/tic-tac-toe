@@ -1,0 +1,42 @@
+.board {
+    display: flex;
+    margin-left: 45%;
+    margin-top: 10%;
+    flex-flow: column;
+}
+
+.loading {
+    position: absolute;
+    margin-left: 30px;
+    margin-top: -40px;
+}
+
+.winner-status {
+    display: flex;
+    margin-left: -67px;
+}
+
+.board-row {
+    display: flex;
+}
+
+.square {
+    background: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    height: 34px;
+    width: 34px;
+}
+
+.hov {
+    background: yellow
+}
+
+.winner {
+    background: greenyellow
+}
+
+.actions {
+    display: flex;
+    margin-left: -20px;
+}
